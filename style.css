@@ -1,0 +1,283 @@
+.banner{
+    width: 100%;
+    height: 700px;
+    background: #fff9f4;
+}
+.navbar-brand img{
+    max-width: 315px;
+    height: 55px;
+}
+.navbar-collapse{
+    margin-left: 250px;
+}
+.navbar-collapse ul li {
+    margin: 0px 25px !important;
+}
+.navbar-collapse ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+
+.left-content{
+    width: 100%;
+}
+.left-content img{
+    width: 100%;
+    padding: 20px;
+}
+.right-content{
+    margin-top: 150px;
+    padding: 0px 55px;
+}
+.nike h1{
+    color: #fa804c;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    line-height: 1;
+    margin-bottom: 12px;
+    font-family: 'Bebas Neue', cursive;
+}
+.run h1{
+    color: #363958;
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    line-height: 1;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+.right-content p{
+    font-size: 18px;
+    color: #000;
+    padding: 20px 0;
+}
+.right-content button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #7af9ff,#3F51B5);
+    padding: 10px 30px;
+    border-radius:5px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    border:none;
+}
+.card{
+    box-shadow: -7px -4px 15px 0px #dcdcdc;
+    border: 1px solid #fff;
+    border-radius: 15px !important;
+}
+.card-header{
+    background: #fff !important;
+    border-radius: 15px !important;
+    border: 1px solid #fff !important;
+}
+.p-img {
+    background: #f1f1f1 !important;
+    border-radius: 15px !important;
+    margin-top: 5px;
+    max-width: 382px;
+    max-height: 362px;
+}
+.p-img img{
+    width: 100%;
+    padding: 15px;
+}
+.p-desc h3 {
+    color: #363958;
+    font-size: 22px;
+}
+.p-desc p {
+    color: #000;
+}
+.price p {
+    color: #fa804c;
+    font-weight: 600;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+.card-footer{
+    background: #fff !important;
+    border: 1px solid #fff;
+    border-radius: 15px !important;
+}
+.buy-btn{
+    text-align: right;
+}
+.buy-btn button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #4a58d6,#3745c6);
+    padding: 10px 25px;
+    border-radius:5px;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    border:none;
+}
+.headline{
+    margin: 50px 0px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.f-p-img {
+    background: #fff !important;
+    border-radius: 15px !important;
+    margin-top: 5px;
+    max-width: 382px;
+    max-height: 362px;
+}
+.f-p-img img{
+    width: 100%;
+    padding: 15px;
+}
+/* services section css started */
+.services{
+    margin-top: 70px;
+}
+.section-1{
+    padding: 20px;
+    box-shadow: 0px 5px 14px 2px #d5d5d5;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+.s-i-img{
+    max-width: 120px;
+    max-height: 125px;
+}
+.s-i-img img{
+    width: 100%;
+}
+.s-img{
+    margin: 20px 0;
+}
+.s-img img{
+    width: 100%;
+    padding: 50px;
+}
+.s-desc h3{
+    color: #363958 ;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.s-desc p{
+    font-size: 18px;
+    color: rgb(24, 24, 24);
+}
+footer{
+    background:rgb(51, 62, 79);
+    color: rgb(156, 169, 190);
+    padding: 80px 0px;
+    margin-top: 20px;
+}
+.app-link{
+    width: 150px;
+    height: 150%;
+}
+.app-link img{
+    width: 100%;
+}
+.c-link ul li{
+    list-style: none;
+}
+.c-link ul li a{
+    text-decoration: none;
+    color: rgb(156 169 190);
+    font-size: 18px;
+}
+.c-link h3{
+    margin-left: 25px;
+}
+.l-link ul li{
+    list-style: none;
+}
+.l-link ul li {
+    text-decoration: none;
+    color: rgb(156 169 190);
+    font-size: 18px;
+}
+.l-link h3{
+    margin-left: 25px;
+}
+.g-link i{
+    font-size: 40px;
+    margin-left: 5;
+    padding: 10px;
+}
+.copyright{
+    background:rgb(51, 62, 79);
+    color: rgb(156, 169, 190);
+    padding-bottom: 25px;
+    
+}
+.copyright p {
+    text-align: center;
+}
+
+
+
+/* services section css ended */
+
+/* responsive css started */
+@media screen and (max-width: 640px){ 
+    .navbar-brand img {
+        max-width: 150px;
+        height: 35px;
+    }
+    .navbar-collapse {
+        margin-left: 175px;
+    }
+    .right-content {
+        margin-top: 30px; 
+        padding: 0px 0px; 
+    }
+    .nike h1 {
+        color: #fa804c;
+        font-size: 50px;
+        font-weight: 600;
+        margin-bottom: 0px;
+        line-height: 1;
+    }
+    .run h1 {
+        color: #363958;
+        font-size: 50px;
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+    .card{
+        margin-bottom: 15px;
+    }
+    .right-content p{
+        font-size: 16px;
+        color: #000;
+    }
+    .s-i-img {
+        margin-left: 86px;
+        max-width: 100px;
+        max-height: 105px;
+    }
+    .s-desc h3 {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .s-img img {
+        width: 100%;
+        padding: 15px;
+    }
+/* Footere section responsive css */
+footer{
+    padding:30px 0;
+}
+.c-link h3{
+    margin-top: 20px;
+}
+.buy-btn {
+    text-align: center;
+}
+}
+
+/* responsive css ended */
